@@ -53,8 +53,8 @@ textures["uranus"] = textureLoader.load('./textures/uranus.jpg');
 textures["neptune"] = textureLoader.load('./textures/neptune.jpg');
 textures["pluto"] = textureLoader.load('./textures/pluto.jpg');
 
-const asteroidTexture = textureLoader.load('/textures/asteroid.jpg');
-const ringTexture = textureLoader.load('/textures/rings.png');
+const asteroidTexture = textureLoader.load('./textures/asteroid.jpg');
+const ringTexture = textureLoader.load('./textures/rings.png');
 
 const sunLight = Light.pointLightCreate();
 const ambientLight = Light.ambientLightCreate();
