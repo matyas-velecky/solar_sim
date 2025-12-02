@@ -145,19 +145,41 @@ function cameraSwitch(obj){
   activeCamera = obj.camera;
   controls.object = activeCamera;
   controls.enablePan = false;
+  controls.enableRotate = false;
   controls.update();
 }
-
-const sunBtn = document.getElementById('sunAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[0]));
-const mercuryBtn = document.getElementById('mercuryAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[1]));
-const venusBtn = document.getElementById('venusAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[2]));
-const earthBtn = document.getElementById('earthAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[3]));
-const marsBtn = document.getElementById('marsAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[4]));
-const jupiterBtn = document.getElementById('jupiterAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[5]));
-const saturnBtn = document.getElementById('saturnAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[6]));
-const uranusBtn = document.getElementById('uranusAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[7]));
-const neptuneBtn = document.getElementById('neptuneAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[8]));
-const plutoBtn = document.getElementById('plutoAlign').addEventListener('click',()=>cameraSwitch(celestialObjects[9]));
+let pastPosition;
+let pressed = null;
+const sunBtn = document.getElementById('sunAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[0]);
+});
+const mercuryBtn = document.getElementById('mercuryAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[1]);
+});
+const venusBtn = document.getElementById('venusAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[2]);
+});
+const earthBtn = document.getElementById('earthAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[3]);
+});
+const marsBtn = document.getElementById('marsAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[4]);
+});
+const jupiterBtn = document.getElementById('jupiterAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[5]);
+});
+const saturnBtn = document.getElementById('saturnAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[6]);
+});
+const uranusBtn = document.getElementById('uranusAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[7]);
+});
+const neptuneBtn = document.getElementById('neptuneAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[8]);
+});
+const plutoBtn = document.getElementById('plutoAlign').addEventListener('click',()=>{
+  cameraSwitch(celestialObjects[9]);
+});
 
 const orbitSpeeds = {
   1:0.003,2:0.002,3:0.001,4:0.0009,
