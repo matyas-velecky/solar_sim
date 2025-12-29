@@ -5,6 +5,7 @@ export function coronaCreate(){
   const coronaGeo = new THREE.SphereGeometry(21, 32, 32);
   const coronaMat = new THREE.MeshBasicMaterial({
     color: 0xffaa00,
+    emmisive: 0xffaa00,
     transparent: true,
     opacity: 0.3,
   });
