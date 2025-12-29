@@ -2,7 +2,7 @@ import * as THREE from 'three';
 
 //Sun corona 
 export function coronaCreate(){
-  const coronaGeo = new THREE.SphereGeometry(141, 32, 32);
+  const coronaGeo = new THREE.SphereGeometry(21, 32, 32);
   const coronaMat = new THREE.MeshBasicMaterial({
     color: 0xffaa00,
     transparent: true,
@@ -24,9 +24,9 @@ export function ringCreate(texture){
   return ring;
 }
 
-export function asteroidBelt(asteroidTexture, distance, width, count){
+export function asteroidBelt(asteroidTexture, distance, width, count, size){
   const belt = new THREE.Group();  
-  const asteroidGeo = new THREE.SphereGeometry(0.2, 8, 8);
+  const asteroidGeo = new THREE.SphereGeometry(1, 8, 8);
   const asteroidMat = new THREE.MeshStandardMaterial({ map: asteroidTexture });
 
   const asteroids = [];

@@ -1,21 +1,7 @@
 body{
     background-color: rgb(41, 40, 40);
 }
-#structure{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-}
 #container{
-    justify-self: right;
+    justify-self: center;
     border: 5px double grey
-}
-#buttons{
-    display: flex;
-    flex-direction: column;
-    padding: 10;
-}
-button{
-    width: 200px;
-    height: 45px;
 }
