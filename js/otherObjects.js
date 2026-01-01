@@ -30,7 +30,7 @@ export function asteroidBelt(asteroidTexture, distance, width, count, size){
   const asteroidGeo = new THREE.SphereGeometry(1, 8, 8);
   const asteroidMat = new THREE.MeshStandardMaterial({ 
     map: asteroidTexture,
-    emissive: 808080;
+    emissive: 0x808080;
   });
 
   const asteroids = [];
