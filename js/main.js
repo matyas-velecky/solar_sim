@@ -56,8 +56,8 @@ textures["uranus"] = textureLoader.load('./textures/uranus.jpg');
 textures["neptune"] = textureLoader.load('./textures/neptune.jpg');
 textures["pluto"] = textureLoader.load('./textures/pluto.jpg');
 
-const asteroidTexture = textureLoader.load('../textures/asteroid.jpg');
-const ringTexture = textureLoader.load('../textures/rings.png');
+const asteroidTexture = textureLoader.load('./textures/asteroid.jpg');
+const ringTexture = textureLoader.load('./textures/rings.png');
 
 const sunLight = Light.pointLightCreate();
 const ambientLight = Light.ambientLightCreate();
@@ -84,7 +84,7 @@ scene.add(corona);
 
 const ring = otherObj.ringCreate(ringTexture);
 const asteroidBelt = otherObj.asteroidBelt(asteroidTexture, 240, 400, 500,1);
-const kuiperBelt  = otherObj.asteroidBelt(asteroidTexture, 5980, 7000, 1000,5);
+const kuiperBelt  = otherObj.asteroidBelt(asteroidTexture, 598, 700, 1000,5);
 scene.add(asteroidBelt.belt);
 scene.add(kuiperBelt.belt);
 
