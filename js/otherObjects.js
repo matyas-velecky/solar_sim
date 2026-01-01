@@ -27,7 +27,7 @@ export function ringCreate(texture){
 
 export function asteroidBelt(asteroidTexture, distance, width, count, size){
   const belt = new THREE.Group();  
-  const asteroidGeo = new THREE.SphereGeometry(1, 8, 8);
+  const asteroidGeo = new THREE.SphereGeometry(size, 8, 8);
   const asteroidMat = new THREE.MeshBasicMaterial({ 
     map: asteroidTexture,
     emissive: 0x808080
