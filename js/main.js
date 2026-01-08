@@ -85,7 +85,7 @@ const corona = otherObj.coronaCreate();
 scene.add(corona);
 
 const ring = otherObj.ringCreate(ringTexture);
-const asteroidBelt = otherObj.asteroidBelt(asteroidTexture, 500, 400, 1000,1);
+const asteroidBelt = otherObj.asteroidBelt(asteroidTexture, 500, 400, 1000,3);
 const kuiperBelt  = otherObj.asteroidBelt(asteroidTexture, 5000, 7000, 5000,5);
 scene.add(asteroidBelt.belt);
 scene.add(kuiperBelt.belt);
