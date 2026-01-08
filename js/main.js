@@ -13,7 +13,7 @@ const objectNames = [
   "moon","deimos","phobos","io","ganimedes","europa","callisto"
 ];
 
-let sizes = [25, 5.9 ,12.1 ,12.7 ,9.8 ,13 ,12.6 ,11.1 ,11.9 ,2.4 ,2.5 ,1.2 ,1.2 ,1.6 ,1.6 ,1.6 ,1.6];
+let sizes = [40, 8.9 ,15.1 ,15.7 ,13.8 ,13 ,12.6 ,11.1 ,11.9 ,2.4 ,2.5 ,1.2 ,1.2 ,1.6 ,1.6 ,1.6 ,1.6];
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000000);
