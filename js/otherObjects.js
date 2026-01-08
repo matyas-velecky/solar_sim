@@ -2,7 +2,7 @@ import * as THREE from 'three';
 
 //Sun corona 
 export function coronaCreate(){
-  const coronaGeo = new THREE.SphereGeometry(21, 32, 32);
+  const coronaGeo = new THREE.SphereGeometry(42, 32, 32);
   const coronaMat = new THREE.MeshStandardMaterial({
     color: 0xffaa00,
     emissive: 0xffff00,
