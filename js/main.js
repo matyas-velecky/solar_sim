@@ -120,9 +120,9 @@ const EuropaOrbit = new THREE.Group();
 const CalistoOrbit = new THREE.Group();
 celestialObjects[5].add(IoOrbit, GanymedesOrbit, EuropaOrbit, CalistoOrbit);
 celestialObjects[13].position.set(32,0,0);
-celestialObjects[14].position.set(33,0,0);
-celestialObjects[15].position.set(35,0,0);
-celestialObjects[16].position.set(37,0,0);
+celestialObjects[14].position.set(40,0,0);
+celestialObjects[15].position.set(48,0,0);
+celestialObjects[16].position.set(55,0,0);
 IoOrbit.add(celestialObjects[13]);
 GanymedesOrbit.add(celestialObjects[14]);
 EuropaOrbit.add(celestialObjects[15]);
@@ -150,9 +150,9 @@ function animate() {
   phobosOrbit.rotation.y += 0.01;
   deimosOrbit.rotation.y += 0.01;
 
-  IoOrbit.rotation.y += 0.01;
-  GanymedesOrbit.rotation.y += 0.01;
-  EuropaOrbit.rotation.y += 0.01;
+  IoOrbit.rotation.y += 0.04;
+  GanymedesOrbit.rotation.y += 0.03;
+  EuropaOrbit.rotation.y += 0.02;
   CalistoOrbit.rotation.y += 0.01;
 
   asteroidBelt.asteroids.forEach(a=>{
