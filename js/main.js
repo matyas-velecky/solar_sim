@@ -67,8 +67,8 @@ scene.add(sunLight);
 scene.add(ambientLight);
 
 const planetDistances = {
-  1: 58, 2: 108, 3: 150, 4: 228, 5: 778,
-  6: 1430, 7: 2870, 8: 4500, 9: 5900
+  1: 58, 2: 108, 3: 150, 4: 228, 5: 978,
+  6: 1530, 7: 2970, 8: 4600, 9: 5900
 };
 
 //vytvareni planet a slunce
@@ -85,7 +85,7 @@ const corona = otherObj.coronaCreate();
 scene.add(corona);
 
 const ring = otherObj.ringCreate(ringTexture);
-const asteroidBelt = otherObj.asteroidBelt(asteroidTexture, 240, 400, 1000,1);
+const asteroidBelt = otherObj.asteroidBelt(asteroidTexture, 500, 400, 1000,1);
 const kuiperBelt  = otherObj.asteroidBelt(asteroidTexture, 5980, 7000, 5000,5);
 scene.add(asteroidBelt.belt);
 scene.add(kuiperBelt.belt);
