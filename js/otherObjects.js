@@ -15,7 +15,7 @@ export function coronaCreate(){
 
 // Saturn Rings 
 export function ringCreate(texture){
-  const ringGeo = new THREE.RingGeometry(0.5, 20, 64);
+  const ringGeo = new THREE.RingGeometry(20.6, 30, 64);
   const ringMat = new THREE.MeshBasicMaterial({
     map: texture,
     side: THREE.DoubleSide
