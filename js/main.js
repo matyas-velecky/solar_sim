@@ -13,7 +13,7 @@ const objectNames = [
   "moon","deimos","phobos","io","ganimedes","europa","callisto"
 ];
 
-let sizes = [20, 2.9 ,9.1 ,9.7 ,6.8 ,13 ,12.6 ,11.1 ,11.9 ,2.4 ,2.5 ,1.2 ,1.2 ,1.6 ,1.6 ,1.6 ,1.6];
+let sizes = [25, 5.9 ,12.1 ,12.7 ,9.8 ,13 ,12.6 ,11.1 ,11.9 ,2.4 ,2.5 ,1.2 ,1.2 ,1.6 ,1.6 ,1.6 ,1.6];
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000000);
@@ -67,7 +67,7 @@ scene.add(sunLight);
 scene.add(ambientLight);
 
 const planetDistances = {
-  1: 58, 2: 108, 3: 150, 4: 228, 5: 978,
+  1: 78, 2: 128, 3: 170, 4: 248, 5: 978,
   6: 1530, 7: 2970, 8: 4600, 9: 5900
 };
 
