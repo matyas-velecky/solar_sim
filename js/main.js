@@ -10,7 +10,7 @@ let textures = {};
 const objectNames = [
   "sun","mercury","venus","earth","mars","jupiter",
   "saturn","uranus","neptune","pluto",
-  "moon","deimos","phobos","io","ganimedes","europa","calisto"
+  "moon","deimos","phobos","io","ganimedes","europa","callisto"
 ];
 
 let sizes = [20, 2.9 ,9.1 ,9.7 ,6.8 ,13 ,12.6 ,11.1 ,11.9 ,2.4 ,2.5 ,1.2 ,1.2 ,1.6 ,1.6 ,1.6 ,1.6];
@@ -53,7 +53,7 @@ textures["jupiter"] = textureLoader.load('./textures/jupiter.jpg');
 textures["io"] = textureLoader.load('./textures/io.jpg');
 textures["ganimedes"] = textureLoader.load('./textures/ganimedes.jpg');
 textures["europa"] = textureLoader.load('./textures/europa.jpg');
-textures["calisto"] = textureLoader.load('./textures/calisto.jpg');
+textures["callisto"] = textureLoader.load('./textures/callisto.jpg');
 textures["uranus"] = textureLoader.load('./textures/uranus.jpg');
 textures["neptune"] = textureLoader.load('./textures/neptune.jpg');
 textures["pluto"] = textureLoader.load('./textures/pluto.jpg');
