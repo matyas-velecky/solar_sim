@@ -68,7 +68,7 @@ scene.add(ambientLight);
 
 const planetDistances = {
   1: 178, 2: 228, 3: 370, 4: 448, 5: 978,
-  6: 1530, 7: 2970, 8: 4600, 9: 5900
+  6: 1530, 7: 2970, 8: 4600, 9: 5000
 };
 
 //vytvareni planet a slunce
