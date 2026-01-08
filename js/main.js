@@ -67,7 +67,7 @@ scene.add(sunLight);
 scene.add(ambientLight);
 
 const planetDistances = {
-  1: 78, 2: 128, 3: 170, 4: 248, 5: 978,
+  1: 178, 2: 228, 3: 370, 4: 448, 5: 978,
   6: 1530, 7: 2970, 8: 4600, 9: 5900
 };
 
@@ -102,7 +102,7 @@ for (let i = 1; i <= 9; i++) {
 
 const earthMoonOrbit = new THREE.Group();
 celestialObjects[3].add(earthMoonOrbit);
-celestialObjects[10].position.set(3,0,0);
+celestialObjects[10].position.set(18,0,0);
 earthMoonOrbit.add(celestialObjects[10]);
 
 const phobosOrbit = new THREE.Group();
