@@ -29,7 +29,7 @@ camera.lookAt(0,0,0);
 scene.add(camera);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setSize(window.innerWidth -10, window.innerHeight -10);
 document.getElementById('container').appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
