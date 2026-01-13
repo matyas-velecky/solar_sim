@@ -19,7 +19,7 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000000);
 
 const camera = new THREE.PerspectiveCamera(
-  75,
+  90,
   window.innerWidth / window.innerHeight,
   0.1,
   20000
@@ -102,14 +102,14 @@ for (let i = 1; i <= 9; i++) {
 
 const earthMoonOrbit = new THREE.Group();
 celestialObjects[3].add(earthMoonOrbit);
-celestialObjects[10].position.set(18,0,0);
+celestialObjects[10].position.set(22,0,0);
 earthMoonOrbit.add(celestialObjects[10]);
 
 const phobosOrbit = new THREE.Group();
 const deimosOrbit = new THREE.Group();
 celestialObjects[4].add(phobosOrbit);
 celestialObjects[4].add(deimosOrbit);
-celestialObjects[12].position.set(16,0,0);
+celestialObjects[12].position.set(20,0,0);
 celestialObjects[11].position.set(18,0,0);
 phobosOrbit.add(celestialObjects[12]);
 deimosOrbit.add(celestialObjects[11]);
