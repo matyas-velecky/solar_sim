@@ -13,7 +13,7 @@ const objectNames = [
   "moon","deimos","phobos","io","ganimedes","europa","callisto"
 ];
 
-let sizes = [40, 8.9 ,15.1 ,15.7 ,13.8 ,25 ,20.6 ,20.1 ,20.9 ,5.4 ,5.5 ,4.2 ,4.2 ,6.6 ,6.6 ,6.6 ,6.6];
+let sizes = [40, 8.9 ,15.1 ,15.7 ,13.8 ,25 ,20.6 ,20.1 ,20.9 ,5.4 ,5.5 ,4.2 ,3.2 ,2.6 ,6.6 ,6.6 ,6.6];
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000000);
@@ -109,7 +109,7 @@ const phobosOrbit = new THREE.Group();
 const deimosOrbit = new THREE.Group();
 celestialObjects[4].add(phobosOrbit);
 celestialObjects[4].add(deimosOrbit);
-celestialObjects[12].position.set(20,0,0);
+celestialObjects[12].position.set(22,0,0);
 celestialObjects[11].position.set(18,0,0);
 phobosOrbit.add(celestialObjects[12]);
 deimosOrbit.add(celestialObjects[11]);
