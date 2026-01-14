@@ -109,7 +109,7 @@ const phobosOrbit = new THREE.Group();
 const deimosOrbit = new THREE.Group();
 celestialObjects[4].add(phobosOrbit);
 celestialObjects[4].add(deimosOrbit);
-celestialObjects[12].position.set(22,0,0);
+celestialObjects[12].position.set(24,0,0);
 celestialObjects[11].position.set(18,0,0);
 phobosOrbit.add(celestialObjects[12]);
 deimosOrbit.add(celestialObjects[11]);
