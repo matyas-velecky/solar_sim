@@ -147,8 +147,8 @@ function animate() {
   }
 
   earthMoonOrbit.rotation.y += 0.01;
-  phobosOrbit.rotation.y += 0.01;
-  deimosOrbit.rotation.y += 0.01;
+  phobosOrbit.rotation.y += 0.02;
+  deimosOrbit.rotation.y += 0.03;
 
   IoOrbit.rotation.y += 0.04;
   GanymedesOrbit.rotation.y += 0.03;
